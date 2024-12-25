@@ -1,0 +1,61 @@
+.chameli {
+    background:rgba(6, 0, 40, 0.05); /* Gradient with slight transparency */
+}
+
+.core-team {
+    padding-left: 7.5% !important;
+    padding-right: 7.5% !important;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: rgba(0,15, 152, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.team-member {
+    flex-basis: 21%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;  /* Position at the bottom */
+    left: 50%;  /* Center horizontally */
+    transform: translateX(-50%);  /* Adjust to ensure exact centering */
+    width: 100%;  /* Full width of the team member */
+    background: rgba(51, 62, 100, 0.8);  /* Slight background */
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;  /* Center text horizontally */
+    color: #fdf5e8;  /* Set text color */
+}
+
+.caption p {
+    margin: 0;  /* Remove default margin */
+    font-size: 14px;  /* Adjust font size if necessary */
+    font-weight: bold;  /* Bold the text */
+    cursor: pointer;
+}
+
+.core-title {
+    padding-top: 17.5px;
+    padding-bottom: 2%;
+    font-size: 2rem;   /* Adjust size */
+    font-weight: 999;
+    color: #333e64;    /* Set color to match the team member caption or choose any */
+    margin-top: 20px;
+    margin-bottom: 0; /* Add spacing below the title */
+    text-align: left; /* Center-align the title */
+    padding-left: 7.5%;
+}

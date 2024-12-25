@@ -1,0 +1,33 @@
+.events-title {
+    font-size: 1.4rem;   /* Adjust size */
+    font-weight: 999;
+    color: #333e64;    /* Set color to match the team member caption or choose any */
+    margin-top: 20px;
+    margin-bottom: 0; /* Add spacing below the title */
+    text-align: left;
+    padding-left: 7.5%;
+}
+
+.events {
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    max-width: 80%;
+}
+
+.nxt-btn, .bk-btn {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(20, 25, 40, 1);
+}
+
+.bk-btn {
+    right: auto;
+    left: 0;
+}

@@ -1,0 +1,34 @@
+.about-title {
+    padding-top: 17.5px;
+    font-size: 2rem;   /* Adjust size */
+    font-weight: 999;
+    color: #333e64;    /* Set color to match the team member caption or choose any */
+    margin-top: 20px;
+    margin-bottom: 0; /* Add spacing below the title */
+    text-align: left;
+    padding-left: 3%;
+}
+
+.gallery-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img {
+    width: 23%;
+    border-radius: 10px;
+}
+
+.btn-dark {
+    background: rgba(20, 25, 40, 1);
+}
