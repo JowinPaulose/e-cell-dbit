@@ -74,11 +74,11 @@
 .event-name {
   margin-top: 10px;
   font-size: 1rem;
-  background: rgba(0, 0, 0, 0.5); /* Slight background */
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
   display: inline-block;
   position: relative;
-  bottom: -10px; /* Position closer to the image */
+  bottom: -10px;
 }

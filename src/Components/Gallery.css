@@ -5,11 +5,11 @@
 
 .about-title {
     padding-top: 17.5px;
-    font-size: 2rem;   /* Adjust size */
+    font-size: 2rem;
     font-weight: 999;
-    color: #333e64;    /* Set color to match the team member caption or choose any */
+    color: #333e64;
     margin-top: 20px;
-    margin-bottom: 0; /* Add spacing below the title */
+    margin-bottom: 0;
     text-align: left;
     padding-left: 3%;
 }
