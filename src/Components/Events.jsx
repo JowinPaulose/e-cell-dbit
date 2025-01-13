@@ -68,7 +68,7 @@ const Events = () => {
               <div className="slide">
                 <div className="event">
                   <img src={event4} alt="Event 4" />
-                  <h3 className="event-name">Event 4</h3>
+                  <h3 className="event-name">Spark Tank</h3>
                 </div>
               </div>
             </li>

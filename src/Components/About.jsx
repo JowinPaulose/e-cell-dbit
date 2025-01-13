@@ -13,11 +13,12 @@ const About = () => {
       <div className="about-right">
         <h3>About E-CELL</h3>
         <h2>Nurturing Tomorrow's Leaders Today</h2>
-        <p>Lorem ipsum dolor sit amet. Non iure galisum rem nihil iusto et aperiam cumque qui voluptatem dolores qui cupiditate laboriosam. In nihil optio cum explicabo accusamus sed earum doloremque quo saepe amet ut omnis magnam. Aut pariatur voluptas aut perferendis nemo ut modi dicta sit culpa provident!<br/>
+        <p>
+        Entrepreneurship Cell of Don Bosco Institute of Technology is a student body founded in 2017 to spread awareness about Entrepreneurship, Management, Finance, hence bridging the gap between Engineering and these fields. We aim to build a medium for students and help them foster and hone skills that are essential to every entrepreneur by conducting various Talks, Workshops, Competitions and other such events ranging from Internship Expos to Brand Building and Social Entrepreneurship. <br/>
 
-        Cum ipsam exercitationem sed cumque eligendi et molestiae consequuntur est harum suscipit eum fugiat laborum! A autem delectus in maxime corrupti At adipisci earum cum praesentium odit 33 autem nihil qui temporibus voluptas ut voluptatibus accusantium. Ex odit voluptatem hic iste voluptatem ut atque corporis qui inventore laudantium.<br/>
+We at E-Cell firmly believe that “Ideas are Bulletproof” and strive to continuously build a platform that assists aspiring entrepreneurs in the student community be helping them brainstorm their ideas, create a business plan and helping them connect to Mentors, Incubators, and Investors who are associated with E-Cell. <br/>
 
-        Qui aliquam officia ut deleniti rerum aut temporibus architecto eum sunt voluptatem rem deserunt expedita? Ad culpa iure aut dolores voluptas qui asperiores internos a consectetur fuga qui dolores eaque.
+We currently live in a society which believes the security of the 9-5 job is the way to live life and anyone who does so otherwise, are termed ‘Idiots’. Keeping that in mind, we the E-Cell of DBIT are the destination for those individuals who reject this notion, and have the passion, flair and determination to pursue their idea and live life defining their own rules. We are an organization that strives to support and help society’s so called ‘Idiots’.
 
         </p>
 

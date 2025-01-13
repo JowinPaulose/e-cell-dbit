@@ -1,9 +1,9 @@
-.bgg{
+/* .bgg{
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
+} */
 
 .about {
     padding-bottom: 0 !important;
@@ -48,4 +48,10 @@
 .about p {
     color: #676767;
     margin-bottom: 15px;
+}
+
+.about-right p::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: #8A2BE2;
 }
