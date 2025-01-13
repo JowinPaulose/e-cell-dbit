@@ -1,33 +1,83 @@
+.bgc{
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .events-title {
-    font-size: 1.4rem;   /* Adjust size */
-    font-weight: 999;
-    color: #333e64;    /* Set color to match the team member caption or choose any */
-    margin-top: 20px;
-    margin-bottom: 0; /* Add spacing below the title */
-    text-align: left;
-    padding-left: 7.5%;
+  font-size: 1.4rem;
+  font-weight: 999;
+  color: #333e64;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: left;
+  padding-left: 7.5%;
 }
 
 .events {
-    margin: 80px auto;
-    padding: 0 80px;
-    position: relative;
-    max-width: 80%;
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+  max-width: 80%;
 }
 
-.nxt-btn, .bk-btn {
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    transform: translateY(-50%);
-    padding: 15px;
-    width: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    background: rgba(20, 25, 40, 1);
+.nxt-btn,
+.bk-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(20, 25, 40, 1);
 }
 
 .bk-btn {
-    right: auto;
-    left: 0;
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 133%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.slider ul li {
+  list-style: none;
+  width: 33.33%;
+  padding: 0px;
+}
+
+.slide {
+  padding: 10px;
+  border-radius: 10px;
+  color: #333e64;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.event-name {
+  margin-top: 10px;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.5); /* Slight background */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  bottom: -10px; /* Position closer to the image */
 }

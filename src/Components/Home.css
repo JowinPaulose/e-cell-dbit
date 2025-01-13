@@ -32,6 +32,13 @@
     font-weight: 666;
     max-width: 700px;
 }
+
+.hero-text h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
 .h-txt{
     padding-bottom: 10px;
 }

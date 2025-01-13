@@ -1,3 +1,10 @@
+.bgg{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 .about {
     padding-bottom: 0 !important;
     margin-bottom: 6% !important;

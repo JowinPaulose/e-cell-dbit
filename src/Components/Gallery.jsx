@@ -9,7 +9,7 @@ import image4 from '../assets/gallery-4.png';
 
 const Gallery = () => {
   return (
-    <div>
+    <div className='bgcc'>
       <div className="about-title">
         <h2 className="core-title">
           <FontAwesomeIcon icon={faUserFriends} size="1x" style={{ paddingRight: '20px' }} />

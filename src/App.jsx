@@ -5,6 +5,8 @@ import Home from './Components/Home'
 import Core from './Components/Core'
 import Gallery from './Components/Gallery'
 import Events from './Components/Events'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Events/>
       <Core/>
       <Gallery/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
