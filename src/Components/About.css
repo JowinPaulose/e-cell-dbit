@@ -1,13 +1,15 @@
-/* .bgg{
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
+.bgg{
+    background: linear-gradient(rgba(255, 255, 255, .99), rgba(255, 255, 255, 0.96));
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-} */
+}
 
 .about {
-    padding-top: 30px !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
     box-sizing: border-box;
     margin: 100px auto;
     display: flex;
@@ -54,4 +56,19 @@
     font-size: 150%;
     font-weight: bold;
     color: #8A2BE2;
+}
+
+/*---------media----------*/
+
+@media (max-width:800px) {
+    .about{
+        flex-direction: column;        
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+    .about-right{
+        flex-basis: 100%;
+    }
 }

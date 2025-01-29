@@ -13,3 +13,27 @@
     letter-spacing: 0.5px;
   }
   
+  @media (max-width: 1000px) {
+    .footer p {
+      margin: 0;
+      font-weight: 369;
+      letter-spacing: 0.35px;
+      padding-bottom: 2px;
+    }
+    .footer{
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .footer p {
+      margin: 0;
+      font-weight: 333;
+      letter-spacing: 0.2px;
+      max-height: 10px;
+      padding-bottom: 2px;
+    }
+    .footer{
+      font-size: 0.69rem;
+    }
+  }

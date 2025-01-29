@@ -5,7 +5,7 @@ import { faUserFriends } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contact-container'>
     <div className="contacts-title">
             <h2 className="contact-title">
               <FontAwesomeIcon icon={faUserFriends} size="1x" style={{ paddingRight: '20px' }} />

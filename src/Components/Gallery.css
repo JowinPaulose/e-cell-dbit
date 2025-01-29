@@ -1,14 +1,18 @@
 .bgcc {
-    background:rgba(6, 0, 40, 0.05);
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
     padding-bottom: 1px;
+    margin-top: 0 !important;
+    box-sizing: border-box !important;
+    padding-top: 1px !important;
+    margin-bottom: 0 !important;
 }
 
 .about-title {
-    padding-top: 17.5px;
+    /* padding-top: 17.5px; */
     font-size: 2rem;
     font-weight: 999;
     color: #333e64;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 0;
     text-align: left;
     padding-left: 3%;
@@ -17,7 +21,10 @@
 .gallery-container {
     padding-left: 5%;
     padding-right: 5%;
-    margin: 80px auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+    margin-top: 20px;
     width: 90%;
     text-align: center;
 }
@@ -40,16 +47,16 @@
 
 /* ----media---- */
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .gallery{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .gallery-container{
         flex-basis: 100%;
         margin: 20px;
     }
     .gallery img {
-        width: 70%;
+        width: 48%;
         padding-bottom: 20px;
     }
 }

@@ -1,9 +1,11 @@
 .bgc{
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(240, 248, 255, 0.9));
+
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 1px !important;
+  margin-top: 0px !important;
+  padding-top: 1px !important ;
+
 }
 
 
@@ -118,7 +120,7 @@
 
   .slider ul {
     display: flex;
-    width: 320%;
+    width: 360%;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -132,7 +134,7 @@
     margin: 40px auto;
     padding: 0 40px;
     position: relative;
-    max-width: 80%;
+    max-width: 90%;
   }
   
 }

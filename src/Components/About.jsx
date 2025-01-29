@@ -14,12 +14,9 @@ const About = () => {
         <h3>About E-CELL</h3>
         <h2>Nurturing Tomorrow's Leaders Today</h2>
         <p>
-        Entrepreneurship Cell of Don Bosco Institute of Technology is a student body founded in 2017 to spread awareness about Entrepreneurship, Management, Finance, hence bridging the gap between Engineering and these fields. We aim to build a medium for students and help them foster and hone skills that are essential to every entrepreneur by conducting various Talks, Workshops, Competitions and other such events ranging from Internship Expos to Brand Building and Social Entrepreneurship. <br/>
+        Entrepreneurship Cell of Don Bosco Institute of Technology, founded in 2017, bridges the gap between Engineering, Entrepreneurship, Management, and Finance. Through Talks, Workshops, Competitions, and events like Internship Expos and Brand Building, we help students develop essential entrepreneurial skills. <br/>
 
-We at E-Cell firmly believe that “Ideas are Bulletproof” and strive to continuously build a platform that assists aspiring entrepreneurs in the student community be helping them brainstorm their ideas, create a business plan and helping them connect to Mentors, Incubators, and Investors who are associated with E-Cell. <br/>
-
-We currently live in a society which believes the security of the 9-5 job is the way to live life and anyone who does so otherwise, are termed ‘Idiots’. Keeping that in mind, we the E-Cell of DBIT are the destination for those individuals who reject this notion, and have the passion, flair and determination to pursue their idea and live life defining their own rules. We are an organization that strives to support and help society’s so called ‘Idiots’.
-
+Believing that “Ideas are Bulletproof,” we provide a platform for aspiring entrepreneurs to brainstorm, craft business plans, and connect with Mentors, Incubators, and Investors. In a world fixated on the 9-5 norm, we stand as a hub for those who dare to defy it—supporting individuals with the passion, flair, and determination to shape their own path.
         </p>
 
       </div>

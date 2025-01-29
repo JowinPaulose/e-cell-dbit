@@ -1,11 +1,18 @@
+.contact-container{
+    margin-top: 0 !important;
+    box-sizing: border-box !important;
+    padding-top: 1 !important;
+    background: linear-gradient(rgba(255, 255, 255, 0.99999), rgba(240, 248, 255, 0.99999));
+}
 .contact-title {
     font-size: 1.4rem;
     font-weight: 999;
     color: #333e64;
-    margin-top: 20px;
+    margin-top: 0px !important;
     margin-bottom: 0;
     text-align: left;
     padding-left: 7.5%;
+    padding-top: 0px !important;
   }
   
   .contacts {
@@ -58,5 +65,40 @@
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
+  }
+  
+  @media (max-width: 650px) {
+    .contacts {
+      padding: 0 20px;
+      max-width: 100%;
+      margin: 40px auto;
+    }
+  
+    /* .contacts-title {
+      font-size: 1.6rem;
+      padding-left: 5%;
+      text-align: center;
+    } */
+  
+    .contact {
+      flex-direction: column;
+      align-items: left;
+      padding: 20px;
+    }
+  
+    .address,
+    .mail {
+      max-width: 100%;
+      padding: 15px;
+      text-align: left;
+      margin-bottom: 20px;
+      margin-left: 15px;
+    }
+  
+    /* .contact-title {
+      font-size: 1.2rem;
+      text-align: center;
+      padding-left: 0;
+    } */
   }
   
